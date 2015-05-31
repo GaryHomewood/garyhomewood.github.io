@@ -1,0 +1,35 @@
+html {
+    font-family: 'Libre Baskerville', serif;
+}
+h1 {
+    font-weight: normal;
+}
+.social {
+    list-style: none;
+    margin: 0;
+    padding: 1em 0;
+    font-family: sans-serif;
+}
+.social li {
+    padding: 10px 0;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+}
+.container {
+  box-sizing: content-box;
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width: 620px) {
+  .container {
+    padding-left: 4.8%;
+    padding-right: 4.8%;
+    max-width: 630px;
+  }
+}
